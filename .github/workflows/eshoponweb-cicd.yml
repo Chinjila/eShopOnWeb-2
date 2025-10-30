@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: az2006-rg
-  LOCATION: "France Central"
+  LOCATION: francecentral
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: a4c8b5a7-cd58-4479-85f0-3fa4ba8102ea
   WEBAPP-NAME: az2006app794
